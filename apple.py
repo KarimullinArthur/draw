@@ -1,4 +1,4 @@
-from colorama import Fore
+from colorama import Fore,Style
 
 x = 10
 
@@ -11,3 +11,5 @@ for y in range(5):
 		print(Fore.RED + '#'*x+'\b','\r','')
 	else:
 		print(Fore.RED + '#'*x)
+
+print(Style.RESET_ALL)
